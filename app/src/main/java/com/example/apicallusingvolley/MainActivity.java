@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 Map<String,String>headers=new HashMap<>();
-                headers.put("X-RapidAPI-Key", "4f27711990msh161ee48ad793e1ep1706acjsn453ffca582c1");
-                headers.put("X-RapidAPI-Host" ,"pincode13.p.rapidapi.com");
+                headers.put("X-RapidAPI-Key", "");
+                headers.put("X-RapidAPI-Host" ,"");
                 return headers;
             }
         };
